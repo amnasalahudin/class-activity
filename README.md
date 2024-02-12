@@ -95,3 +95,29 @@ Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
 To https://github.com/amnasalahudin/class-activity.git
    a8d8edb..c3f7f14  amna -> amna
 branch 'amna' set up to track 'origin/amna'.
+
+Spectre@DESKTOP-U9979GL MINGW64 /d/class-activity (amna)
+$ git checkout dev
+Switched to branch 'dev'
+Your branch is up to date with 'origin/dev'.
+
+Spectre@DESKTOP-U9979GL MINGW64 /d/class-activity (dev)
+$ git merge amna
+Updating a8d8edb..6ab8e0d
+Fast-forward
+ .gitignore                 |  0
+ README.md                  | 98 +++++++++++++++++++++++++++++++++++++++++++++-
+ python-project/__init__.py |  0
+ python-project/main.py     |  0
+ requirements.txt           |  0
+ 5 files changed, 97 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 python-project/__init__.py
+ create mode 100644 python-project/main.py
+ create mode 100644 requirements.txt
+
+Spectre@DESKTOP-U9979GL MINGW64 /d/class-activity (dev)
+$ git push origin dev
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amnasalahudin/class-activity.git
+   a8d8edb..6ab8e0d  dev -> dev
