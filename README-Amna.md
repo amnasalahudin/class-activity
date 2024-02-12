@@ -2,6 +2,8 @@
 
 ## Git Commands Along with Output
 
+## i200488 - Amna
+
 Below are the Git commands used for setting up the project along with their outputs:
 
 ```bash
