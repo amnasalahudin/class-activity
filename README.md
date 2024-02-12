@@ -1,7 +1,10 @@
 # class-activity
 
-## git commands along with output
+## Git Commands Along with Output
 
+Below are the Git commands used for setting up the project along with their outputs:
+
+```bash
 Spectre@DESKTOP-U9979GL MINGW64 /d
 $ git clone https://github.com/amnasalahudin/class-activity.git
 Cloning into 'class-activity'...
@@ -68,6 +71,27 @@ To https://github.com/amnasalahudin/class-activity.git
  * [new branch]      amna -> amna
 branch 'amna' set up to track 'origin/amna'.
 
-git add .
-git commit -m "Initial project scaffolding"
-git push -u origin amna
+Spectre@DESKTOP-U9979GL MINGW64 /d/class-activity (amna)
+$ git add .
+warning: in the working copy of 'README.md', CRLF will be replaced by LF the next time Git touches it
+
+Spectre@DESKTOP-U9979GL MINGW64 /d/class-activity (amna)
+$ git commit -m "Initial project scaffolding"
+[amna c3f7f14] Initial project scaffolding
+ 5 files changed, 73 insertions(+), 1 deletion(-)
+ create mode 100644 .gitignore
+ create mode 100644 python-project/__init__.py
+ create mode 100644 python-project/main.py
+ create mode 100644 requirements.txt
+
+Spectre@DESKTOP-U9979GL MINGW64 /d/class-activity (amna)
+$ git push -u origin amna
+Enumerating objects: 7, done.
+Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (5/5), 983 bytes | 491.00 KiB/s, done.
+Total 5 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/amnasalahudin/class-activity.git
+   a8d8edb..c3f7f14  amna -> amna
+branch 'amna' set up to track 'origin/amna'.
